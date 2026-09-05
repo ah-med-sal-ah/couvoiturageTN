@@ -1,0 +1,255 @@
+{
+  "app": {
+    "name": "CovoiturageTN"
+  },
+  "nav": {
+    "home": "Accueil",
+    "passenger": "Passager",
+    "addPost": "Publier",
+    "driver": "Conducteur",
+    "profile": "Profil",
+    "history": "Historique",
+    "help": "Aide et support",
+    "guidelines": "Guide d'utilisation",
+    "dashboard": "Tableau de bord",
+    "logout": "Déconnexion",
+    "menu": "Menu"
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "subtitle": "Bon retour sur CovoiturageTN",
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "submitting": "Connexion en cours...",
+      "noAccount": "Vous n'avez pas de compte ?",
+      "createAccount": "Créer un compte",
+      "invalidCredentials": "Nom d'utilisateur ou mot de passe incorrect."
+    },
+    "register": {
+      "title": "Créer un compte",
+      "subtitle": "Rejoignez CovoiturageTN en une minute",
+      "profilePhoto": "Photo de profil",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "cin": "CIN",
+      "age": "Âge",
+      "username": "Nom d'utilisateur",
+      "usernameHint": "(retenez ce nom d'utilisateur pour vous connecter)",
+      "password": "Mot de passe",
+      "repeatPassword": "Répéter le mot de passe",
+      "gender": "Genre",
+      "genderFemale": "Femme",
+      "genderMale": "Homme",
+      "submit": "Créer un compte",
+      "submitting": "Création en cours...",
+      "haveAccount": "Vous avez déjà un compte ?",
+      "signIn": "Se connecter",
+      "passwordMismatch": "Les mots de passe ne correspondent pas.",
+      "uploadPhoto": "Choisir une photo",
+      "removePhoto": "Retirer",
+      "photoInvalidType": "Veuillez sélectionner un fichier image.",
+      "photoTooLarge": "L'image ne doit pas dépasser 8 Mo.",
+      "usernameTaken": "Ce nom d'utilisateur est déjà pris.",
+      "usernameUseSuggestion": "Utiliser « {suggestion} » à la place"
+    },
+    "logoutConfirm": "Voulez-vous vraiment vous déconnecter ?"
+  },
+  "password": {
+    "strength": {
+      "label": "Force du mot de passe",
+      "weak": "Faible",
+      "medium": "Moyen",
+      "strong": "Fort"
+    },
+    "requirements": "Plus de 8 caractères, avec une majuscule, une minuscule, un chiffre et un symbole."
+  },
+  "publication": {
+    "status": {
+      "passenger": "Passager",
+      "driver": "Conducteur"
+    },
+    "fields": {
+      "departure": "Point de départ",
+      "arrival": "Point d'arrivée",
+      "seats": "Places disponibles",
+      "gender": "Genre",
+      "phone": "Numéro de téléphone",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "date": "Date de départ",
+      "time": "Heure de départ",
+      "remarks": "Remarques"
+    },
+    "card": {
+      "seats": "aucune place disponible | {count} place disponible | {count} places disponibles"
+    },
+    "filter": {
+      "title": "Filtres",
+      "departure": "Départ",
+      "arrival": "Arrivée",
+      "apply": "Appliquer",
+      "clear": "Réinitialiser"
+    },
+    "create": {
+      "title": "Créer une publication",
+      "statusLabel": "Publier en tant que",
+      "choosePassenger": "Passager",
+      "chooseDriver": "Conducteur",
+      "remarksPlaceholder": "Tout ce que l'autre partie devrait savoir...",
+      "phonePlaceholder": "Numéro à 8 chiffres, ex. 20123456",
+      "facebookPlaceholder": "Lien ou nom d'utilisateur (optionnel)",
+      "instagramPlaceholder": "Lien ou nom d'utilisateur (optionnel)",
+      "ok": "OK",
+      "cancel": "Annuler",
+      "success": "Publication créée avec succès."
+    },
+    "details": {
+      "title": "Détails de la publication",
+      "contact": "Contact",
+      "postedBy": "Publié par"
+    },
+    "empty": "Aucune publication pour le moment.",
+    "emptyFiltered": "Aucune publication ne correspond à vos filtres.",
+    "loadMore": "Charger plus",
+    "own": "Votre publication",
+    "reservation": {
+      "label": "Réservation",
+      "on": "ACTIVÉ",
+      "off": "DÉSACTIVÉ",
+      "updating": "Mise à jour...",
+      "available": "Disponible",
+      "reserved": "Réservé",
+      "updateError": "Impossible de mettre à jour la réservation. Veuillez réessayer.",
+      "deadlinePassed": "L'heure de départ est déjà passée"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "personalInfo": "Informations personnelles",
+    "language": "Langue",
+    "changePhoto": "Changer la photo",
+    "security": "Sécurité",
+    "newPassword": "Nouveau mot de passe",
+    "repeatPassword": "Répéter le mot de passe",
+    "changePassword": "Changer le mot de passe",
+    "saveChanges": "Enregistrer",
+    "updated": "Profil mis à jour avec succès.",
+    "passwordUpdated": "Mot de passe mis à jour avec succès.",
+    "administrator": "Administrateur"
+  },
+  "menu": {
+    "helpTitle": "Aide et support",
+    "helpBody": "Les fonctionnalités d'assistance arriveront dans une prochaine mise à jour."
+  },
+  "history": {
+    "myPosts": "Mes publications",
+    "tabs": {
+      "all": "Toutes",
+      "driver": "Conducteur",
+      "passenger": "Passager"
+    },
+    "empty": "Vous n'avez encore rien publié.",
+    "emptyDriver": "Vous n'avez encore publié aucune annonce Conducteur.",
+    "emptyPassenger": "Vous n'avez encore publié aucune annonce Passager."
+  },
+  "guidelines": {
+    "pageTitle": "Comment utiliser CovoiturageTN",
+    "pageSubtitle": "Un guide rapide pour publier et trouver des trajets partout en Tunisie.",
+    "gettingStarted": {
+      "title": "Premiers pas",
+      "body": "Créez un compte, puis connectez-vous avec votre nom d'utilisateur et votre mot de passe. Vous pouvez compléter ou modifier vos informations personnelles à tout moment depuis la page Profil. Une fois connecté, utilisez la navigation principale - Accueil, Passager, Conducteur, Publier et Profil - pour vous déplacer dans l'application."
+    },
+    "browsing": {
+      "title": "Parcourir les publications",
+      "intro": "La page Accueil affiche toutes les publications, des plus récentes aux plus anciennes. Chaque carte indique son statut, les points de départ et d'arrivée, les places disponibles et le genre de la personne qui publie - touchez une carte pour voir tous les détails, y compris la date et l'heure de départ, les remarques et les coordonnées.",
+      "statusNote": "Passager et Conducteur sont des statuts de publication, pas des types de compte distincts - chaque utilisateur peut publier en tant que l'un ou l'autre.",
+      "passengerTitle": "Passager",
+      "passengerBody": "Besoin d'un trajet ? Publiez une annonce Passager. La page Passager n'affiche que les publications Passager, ce qui facilite leur consultation.",
+      "driverTitle": "Conducteur",
+      "driverBody": "Une place à proposer ? Publiez une annonce Conducteur avec votre départ, votre arrivée, les places disponibles, la date, l'heure, votre numéro de téléphone et d'éventuelles remarques. La page Conducteur n'affiche que les publications Conducteur."
+    },
+    "creating": {
+      "title": "Créer une publication",
+      "body": "Touchez le bouton +, choisissez Passager ou Conducteur, puis renseignez le point de départ, le point d'arrivée, les places disponibles, les remarques, la date de départ, l'heure de départ et un numéro de téléphone de contact. Confirmez avec OK pour publier, ou Annuler pour abandonner."
+    },
+    "reservation": {
+      "title": "Disponibilité de réservation (Conducteur)",
+      "default": "Lorsque vous publiez une annonce Conducteur, sa disponibilité de réservation est DÉSACTIVÉE par défaut, ce qui signifie que l'annonce est disponible.",
+      "howItWorksTitle": "Comment ça marche",
+      "steps": [
+        "Vous publiez une annonce Conducteur.",
+        "La réservation est désactivée par défaut.",
+        "Une personne intéressée vous contacte via le numéro de téléphone (ou les liens sociaux) indiqué sur votre annonce.",
+        "Vous vous mettez d'accord sur le trajet ensemble, en dehors de l'application.",
+        "Une fois vos places prises, ouvrez l'Historique, retrouvez votre annonce et activez la réservation.",
+        "Les autres utilisateurs voient alors l'annonce grisée, marquée comme Réservée."
+      ],
+      "clarificationTitle": "Ce que signifie vraiment la réservation ACTIVÉE/DÉSACTIVÉE",
+      "clarificationBody": "La réservation n'est qu'un indicateur de disponibilité, pas un système de réservation en ligne. CovoiturageTN ne traite aucun paiement, aucune demande de réservation ni confirmation automatique - le trajet est toujours organisé entre les utilisateurs via leurs propres coordonnées."
+    },
+    "history": {
+      "title": "Votre historique",
+      "body": "Ouvrez l'Historique depuis le menu pour voir toutes les publications que vous avez créées, filtrables par Toutes, Conducteur ou Passager. Chacune de vos annonces Conducteur affiche un interrupteur de réservation que vous pouvez activer ou désactiver à tout moment - vous seul pouvez le modifier.",
+      "grayTitle": "Annonces Conducteur grisées",
+      "grayBody": "Lorsqu'un Conducteur active la réservation, les autres utilisateurs voient cette annonce en gris. L'annonce n'est ni supprimée ni masquée - l'aspect grisé indique simplement que le trajet n'est plus disponible."
+    },
+    "profile": {
+      "title": "Profil et langue",
+      "body": "Votre page Profil regroupe vos informations personnelles, les paramètres de mot de passe avec un indicateur de force, et le sélecteur de langue. Passez de l'anglais au français ou à l'arabe à tout moment depuis Profil → Langue."
+    },
+    "support": {
+      "title": "Aide, support et déconnexion",
+      "body": "Utilisez Aide et support depuis le menu chaque fois que vous avez besoin d'assistance. Une fois votre session terminée, Déconnexion met fin en toute sécurité à votre session."
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Tableau de bord",
+      "subtitle": "Un aperçu en direct de l'activité de CovoiturageTN.",
+      "totalUsers": "Utilisateurs au total",
+      "totalPosts": "Publications au total",
+      "passengerPosts": "Publications Passager",
+      "driverPosts": "Publications Conducteur",
+      "available": "Disponible",
+      "reserved": "Réservé",
+      "passengerVsDriver": "Passager vs Conducteur",
+      "driverAvailability": "Statut de réservation des Conducteurs",
+      "postsPerDay": "Publications créées par jour",
+      "postsPerDayCaption": "30 derniers jours",
+      "loading": "Chargement des statistiques...",
+      "error": "Impossible de charger les statistiques du tableau de bord.",
+      "retry": "Réessayer",
+      "noPosts": "Aucune donnée de publication disponible pour le moment.",
+      "ofDriverPosts": "des publications Conducteur"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "close": "Fermer",
+    "search": "Rechercher",
+    "searchLocation": "Rechercher une localité...",
+    "noResults": "Aucun résultat trouvé.",
+    "required": "Obligatoire",
+    "optional": "Optionnel",
+    "confirm": "Confirmer",
+    "retry": "Réessayer",
+    "select": "Sélectionner",
+    "welcome": "Bienvenue",
+    "years": "ans"
+  },
+  "errors": {
+    "generic": "Une erreur est survenue. Veuillez réessayer.",
+    "network": "Impossible de contacter le serveur. Vérifiez votre connexion.",
+    "unauthorized": "Votre session a expiré. Veuillez vous reconnecter.",
+    "validation": "Veuillez vérifier les champs signalés."
+  },
+  "languageNames": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "app": {
+    "name": "CovoiturageTN"
+  },
+  "nav": {
+    "home": "Home",
+    "passenger": "Passenger",
+    "addPost": "Add Post",
+    "driver": "Driver",
+    "profile": "Profile",
+    "history": "History",
+    "help": "Help and Support",
+    "guidelines": "Guidelines",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "menu": "Menu"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in",
+      "subtitle": "Welcome back to CovoiturageTN",
+      "username": "Username",
+      "password": "Password",
+      "submit": "Sign in",
+      "submitting": "Signing in...",
+      "noAccount": "Don't have an account?",
+      "createAccount": "Create one",
+      "invalidCredentials": "Invalid username or password."
+    },
+    "register": {
+      "title": "Create account",
+      "subtitle": "Join CovoiturageTN in a minute",
+      "profilePhoto": "Profile photo",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "cin": "CIN",
+      "age": "Age",
+      "username": "Username",
+      "usernameHint": "(remember this username to login)",
+      "password": "Password",
+      "repeatPassword": "Repeat Password",
+      "gender": "Gender",
+      "genderFemale": "Female",
+      "genderMale": "Male",
+      "submit": "Create account",
+      "submitting": "Creating account...",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "passwordMismatch": "Passwords do not match.",
+      "uploadPhoto": "Upload photo",
+      "removePhoto": "Remove",
+      "photoInvalidType": "Please select an image file.",
+      "photoTooLarge": "The image must not be larger than 8 MB.",
+      "usernameTaken": "This username is already taken.",
+      "usernameUseSuggestion": "Use \"{suggestion}\" instead"
+    },
+    "logoutConfirm": "Are you sure you want to log out?"
+  },
+  "password": {
+    "strength": {
+      "label": "Password strength",
+      "weak": "Weak",
+      "medium": "Medium",
+      "strong": "Strong"
+    },
+    "requirements": "More than 8 characters, with an uppercase letter, a lowercase letter, a number and a symbol."
+  },
+  "publication": {
+    "status": {
+      "passenger": "Passenger",
+      "driver": "Driver"
+    },
+    "fields": {
+      "departure": "Departure point",
+      "arrival": "Arrival point",
+      "seats": "Available seats",
+      "gender": "Gender",
+      "phone": "Phone number",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "date": "Departure date",
+      "time": "Departure time",
+      "remarks": "Remarks"
+    },
+    "card": {
+      "seats": "no seats available | {count} seat available | {count} seats available"
+    },
+    "filter": {
+      "title": "Filters",
+      "departure": "Departure",
+      "arrival": "Arrival",
+      "apply": "Apply",
+      "clear": "Clear filters"
+    },
+    "create": {
+      "title": "Create publication",
+      "statusLabel": "Publish as",
+      "choosePassenger": "Passenger",
+      "chooseDriver": "Driver",
+      "remarksPlaceholder": "Anything the other party should know...",
+      "phonePlaceholder": "8-digit number, e.g. 20123456",
+      "facebookPlaceholder": "Profile link or username (optional)",
+      "instagramPlaceholder": "Profile link or username (optional)",
+      "ok": "OK",
+      "cancel": "Cancel",
+      "success": "Publication created successfully."
+    },
+    "details": {
+      "title": "Publication details",
+      "contact": "Contact",
+      "postedBy": "Posted by"
+    },
+    "empty": "No publications yet.",
+    "emptyFiltered": "No publications match your filters.",
+    "loadMore": "Load more",
+    "own": "Your publication",
+    "reservation": {
+      "label": "Reservation",
+      "on": "ON",
+      "off": "OFF",
+      "updating": "Updating...",
+      "available": "Available",
+      "reserved": "Reserved",
+      "updateError": "Could not update the reservation status. Please try again.",
+      "deadlinePassed": "Departure time has passed"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "personalInfo": "Personal information",
+    "language": "Language",
+    "changePhoto": "Change photo",
+    "security": "Security",
+    "newPassword": "New Password",
+    "repeatPassword": "Repeat Password",
+    "changePassword": "Change password",
+    "saveChanges": "Save changes",
+    "updated": "Profile updated successfully.",
+    "passwordUpdated": "Password updated successfully.",
+    "administrator": "Administrator"
+  },
+  "menu": {
+    "helpTitle": "Help and Support",
+    "helpBody": "Support features are coming in a future update."
+  },
+  "history": {
+    "myPosts": "My Posts",
+    "tabs": {
+      "all": "All",
+      "driver": "Driver",
+      "passenger": "Passenger"
+    },
+    "empty": "You haven't published anything yet.",
+    "emptyDriver": "You haven't published any Driver posts yet.",
+    "emptyPassenger": "You haven't published any Passenger posts yet."
+  },
+  "guidelines": {
+    "pageTitle": "How to Use CovoiturageTN",
+    "pageSubtitle": "A short guide to publishing and finding rides across Tunisia.",
+    "gettingStarted": {
+      "title": "Getting Started",
+      "body": "Create an account, then log in with your username and password. You can complete or update your personal information at any time from the Profile page. Once signed in, use the main navigation - Home, Passenger, Driver, Add Post and Profile - to move around the app."
+    },
+    "browsing": {
+      "title": "Browsing Publications",
+      "intro": "The Home page lists every publication, newest first. Each card shows its status, departure and arrival points, available seats and the publisher's gender - tap a card to see full details, including the departure date and time, remarks and contact information.",
+      "statusNote": "Passenger and Driver are publication statuses, not separate account types - every user can publish as either one.",
+      "passengerTitle": "Passenger",
+      "passengerBody": "Need a ride? Publish a Passenger post. The Passenger page shows only Passenger publications, so it's easy to browse them on their own.",
+      "driverTitle": "Driver",
+      "driverBody": "Have a seat to offer? Publish a Driver post with your departure, arrival, available seats, date, time, phone number and any remarks. The Driver page shows only Driver publications."
+    },
+    "creating": {
+      "title": "Creating a Publication",
+      "body": "Tap the + button, choose Passenger or Driver, then fill in the departure point, arrival point, available seats, remarks, departure date, departure time and a contact phone number. Confirm with OK to publish, or Cancel to discard."
+    },
+    "reservation": {
+      "title": "Driver Reservation Availability",
+      "default": "When you publish a Driver post, its Reservation availability starts OFF, meaning the post is available.",
+      "howItWorksTitle": "How it works",
+      "steps": [
+        "You publish a Driver post.",
+        "Reservation is OFF by default.",
+        "Someone interested contacts you using the phone number (or social links) on your post.",
+        "You agree on the trip together, outside the app.",
+        "Once your seats are taken, open History, find your post, and switch Reservation to ON.",
+        "Other users then see the post grayed out as Reserved."
+      ],
+      "clarificationTitle": "What Reservation ON/OFF really means",
+      "clarificationBody": "Reservation is only an availability indicator, not a booking system. CovoiturageTN does not process payments, booking requests or automatic confirmations - the trip itself is always arranged between users through their own contact information."
+    },
+    "history": {
+      "title": "Your History",
+      "body": "Open History from the menu to see every publication you've created, filterable by All, Driver or Passenger. Each of your Driver posts shows a Reservation switch you can turn ON or OFF at any time - only you can change it.",
+      "grayTitle": "Gray Driver posts",
+      "grayBody": "When a Driver marks Reservation as ON, other users see that post in gray. The post isn't deleted or hidden - the gray appearance simply shows the trip is no longer available."
+    },
+    "profile": {
+      "title": "Profile & Language",
+      "body": "Your Profile page holds your personal information, password settings with a strength indicator, and the Language selector. Switch between English, French and Arabic at any time from Profile → Language."
+    },
+    "support": {
+      "title": "Help, Support & Logout",
+      "body": "Use Help and Support from the menu whenever you need assistance. When you're done for the day, Logout securely ends your session."
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "A live overview of CovoiturageTN activity.",
+      "totalUsers": "Total Users",
+      "totalPosts": "Total Posts",
+      "passengerPosts": "Passenger Posts",
+      "driverPosts": "Driver Posts",
+      "available": "Available",
+      "reserved": "Reserved",
+      "passengerVsDriver": "Passenger vs Driver",
+      "driverAvailability": "Driver Reservation Status",
+      "postsPerDay": "Posts Created Per Day",
+      "postsPerDayCaption": "Last 30 days",
+      "loading": "Loading dashboard statistics...",
+      "error": "Could not load dashboard statistics.",
+      "retry": "Retry",
+      "noPosts": "No post data available yet.",
+      "ofDriverPosts": "of Driver posts"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "search": "Search",
+    "searchLocation": "Search a location...",
+    "noResults": "No results found.",
+    "required": "Required",
+    "optional": "Optional",
+    "confirm": "Confirm",
+    "retry": "Retry",
+    "select": "Select",
+    "welcome": "Welcome",
+    "years": "years"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Unable to reach the server. Check your connection.",
+    "unauthorized": "Your session has expired. Please sign in again.",
+    "validation": "Please check the highlighted fields."
+  },
+  "languageNames": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  }
+}
