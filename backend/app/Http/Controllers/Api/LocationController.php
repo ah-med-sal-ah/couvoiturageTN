@@ -21,11 +21,18 @@ class LocationController extends Controller
 
         $locations = Location::query()
             ->when($search, function ($query, $search) {
-                $query->where(function ($query) use ($search) {
-                    $query->where('name_fr', 'like', "%{$search}%")
-                        ->orWhere('name_ar', 'like', "%{$search}%")
-                        ->orWhere('governorate_fr', 'like', "%{$search}%")
-                        ->orWhere('governorate_ar', 'like', "%{$search}%");
+                // Plain `like` is case-insensitive on SQLite but
+                // case-sensitive on PostgreSQL. Wrapping both sides in
+                // LOWER() keeps the search case-insensitive on every driver
+                // the app runs on (PostgreSQL at runtime, SQLite in tests)
+                // instead of relying on SQLite's non-standard default.
+                $needle = '%'.mb_strtolower($search).'%';
+
+                $query->where(function ($query) use ($needle) {
+                    $query->whereRaw('LOWER(name_fr) LIKE ?', [$needle])
+                        ->orWhereRaw('LOWER(name_ar) LIKE ?', [$needle])
+                        ->orWhereRaw('LOWER(governorate_fr) LIKE ?', [$needle])
+                        ->orWhereRaw('LOWER(governorate_ar) LIKE ?', [$needle]);
                 });
             })
             ->orderBy('name_fr')

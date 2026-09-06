@@ -1,8 +1,8 @@
 # CovoiturageTN - Backend (Laravel API)
 
-Laravel 13 + SQLite REST API for the CovoiturageTN carpooling app. Consumed
-by the Vue 3 SPA in `../frontend`. See `../README.md` for the full picture
-and how to run both sides together.
+Laravel 13 + PostgreSQL REST API for the CovoiturageTN carpooling app.
+Consumed by the Vue 3 SPA in `../frontend`. See `../README.md` for the full
+picture and how to run both sides together.
 
 ## Conventions used in this codebase
 
@@ -37,7 +37,7 @@ and how to run both sides together.
 
 ```bash
 composer install
-cp .env.example .env
+cp .env.example .env   # then fill in DB_DATABASE / DB_USERNAME / DB_PASSWORD for your local PostgreSQL
 php artisan key:generate
 php artisan migrate --seed
 php artisan storage:link

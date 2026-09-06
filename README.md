@@ -11,7 +11,7 @@ what the next phase should cover.
 
 ## Stack
 
-- **Backend:** Laravel 13, SQLite, Sanctum token authentication, REST API
+- **Backend:** Laravel 13, PostgreSQL, Sanctum token authentication, REST API
 - **Frontend:** Vue 3 (Composition API), Vite, Pinia, vue-router, vue-i18n, Tailwind CSS
 
 ## Project structure
@@ -28,10 +28,14 @@ Two servers, run side by side.
 
 ### Backend (Laravel API - http://127.0.0.1:8000)
 
+Requires a running PostgreSQL server and an empty database created for the
+app (see `backend/.env.example` for the connection variables). The PHP
+`pdo_pgsql` extension must be enabled.
+
 ```bash
 cd backend
 composer install
-cp .env.example .env   # already configured for SQLite
+cp .env.example .env   # then fill in DB_DATABASE / DB_USERNAME / DB_PASSWORD for your local PostgreSQL
 php artisan key:generate
 php artisan migrate --seed   # creates tables, seeds Tunisian locations + the admin account
 php artisan storage:link     # exposes uploaded profile photos
